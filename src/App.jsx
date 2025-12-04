@@ -9,7 +9,7 @@ import { PrintProductsBatch3 } from './pages/PrintProductsBatch3';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Luminous-Printing">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
