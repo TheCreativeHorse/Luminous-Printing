@@ -176,7 +176,7 @@ export function Home() {
             <section className="process" id="process">
                 <div className="container">
                     <div className="section-heading">
-                        <h2>How working with Luminious Printing works</h2>
+                        <h2>How We Work?</h2>
                         <p>
                             The process is kept straightforward so you can focus on your business while we handle the print details.
                         </p>

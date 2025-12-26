@@ -23,6 +23,36 @@ import doorHangerHero from '../../Public_Assets/Generated/door_hangers_hero.png'
 import plasticsHero from '../../Public_Assets/Generated/plastics_hero.png';
 import clingsHero from '../../Public_Assets/Generated/clings_hero.png';
 import canvasHero from '../../Public_Assets/Generated/canvas_hero.png';
+import bannersHero from '../../Public_Assets/Generated/banners_hero.png';
+import tentsCanopiesHero from '../../Public_Assets/Generated/tents_canopies_hero.png';
+import popupMediaWallHero from '../../Public_Assets/Generated/popup_media_wall_hero.png';
+import pillowCaseDisplaysHero from '../../Public_Assets/Generated/pillow_case_displays_hero.png';
+import telescopicBackdropsHero from '../../Public_Assets/Generated/telescopic_backdrops_hero.png';
+import shelfTalkersHero from '../../Public_Assets/Generated/shelf_talkers_hero.png';
+import endCapsHero from '../../Public_Assets/Generated/end_caps_hero.png';
+import aisleSignsHero from '../../Public_Assets/Generated/aisle_signs_hero.png';
+import fsdusHero from '../../Public_Assets/Generated/fsdus_hero.png';
+import retractableBannersHero from '../../Public_Assets/Generated/retractable_banners_hero.png';
+import lawnSignsHero from '../../Public_Assets/Generated/lawn_signs_hero.png';
+import aFrameSignsHero from '../../Public_Assets/Generated/a_frame_signs_hero.png';
+import acrylicSignsHero from '../../Public_Assets/Generated/acrylic_signs_hero.png';
+import alupanelSignsHero from '../../Public_Assets/Generated/alupanel_signs_hero.png';
+import flagsHero from '../../Public_Assets/Generated/flags_hero.png';
+import tableCoversHero from '../../Public_Assets/Generated/table_covers_hero.png';
+import tabletopDisplaysHero from '../../Public_Assets/Generated/tabletop_displays_hero.png';
+import windowBrandingHero from '../../Public_Assets/Generated/window_branding_hero.png';
+import labelsStickersHero from '../../Public_Assets/Generated/labels_stickers_hero.png';
+import freezerGradeLabelsHero from '../../Public_Assets/Generated/freezer_grade_labels_hero.png';
+import tShirtsHero from '../../Public_Assets/Generated/t_shirts_hero.png';
+import capsHero from '../../Public_Assets/Generated/caps_hero.png';
+import apronsHero from '../../Public_Assets/Generated/aprons_hero.png';
+import pensHero from '../../Public_Assets/Generated/pens_hero.png';
+import mugsHero from '../../Public_Assets/Generated/mugs_hero.png';
+import bottlesHero from '../../Public_Assets/Generated/bottles_hero.png';
+
+
+
+
 
 export const products = {
     'postcards': {
@@ -399,5 +429,508 @@ export const products = {
                 image: canvasHero
             }
         ]
+    },
+    'banners': {
+        title: 'Banners',
+        subtitle: 'Bold visibility, built to last.',
+        description: 'Ideal for storefronts, events, trade shows, and outdoor promotions, banners deliver high-impact messaging that is visible from a distance. Designed for flexibility and durability, they are a reliable solution for both short-term campaigns and long-term displays.',
+        heroImage: bannersHero,
+        closing: 'Vivid, long-lasting printing ensures your brand stands out in any environment.',
+        sections: [
+            {
+                title: 'Material Options',
+                items: [
+                    'Vinyl',
+                    'Mesh',
+                    'Fabric'
+                ],
+                image: bannersHero
+            },
+            {
+                title: 'Finish Options',
+                items: [
+                    'Grommets',
+                    'Hems',
+                    'Pole pockets'
+                ]
+            }
+        ]
+    },
+    'retractable-banners': {
+        title: 'Retractable Banners',
+        subtitle: 'Portable, professional, ready in seconds.',
+        description: 'Perfect for trade shows, presentations, retail spaces, and lobby displays, retractable banners offer a sleek and professional way to showcase your message. Easy to set up and transport, they are designed for branding on the go.',
+        heroImage: retractableBannersHero,
+        closing: 'Effortless setup with crisp, vibrant graphics that look professional every time.',
+        sections: [
+            {
+                title: 'Features',
+                items: [
+                    'Available in multiple widths',
+                    'High-quality, curl-resistant print materials',
+                    'Pre-assembled aluminum cassette',
+                    'Smooth pull-up mechanism',
+                    'Standard or premium hardware options',
+                    'Carrying case available'
+                ],
+                image: retractableBannersHero
+            }
+        ]
+    },
+    'lawn-signs': {
+        title: 'Lawn Signs',
+        subtitle: 'Durable visibility designed for outdoor impact.',
+        description: 'Ideal for real estate listings, promotions, political campaigns, events, and directional signage, lawn signs provide clear, effective messaging in high-traffic outdoor areas.',
+        heroImage: lawnSignsHero,
+        closing: 'A cost-effective, high-exposure solution built to withstand outdoor conditions.',
+        sections: [
+            {
+                title: 'Material and Setup',
+                items: [
+                    'Weather-resistant corrugated plastic',
+                    'Multiple size options',
+                    'Compatible with standard H-stakes or heavy-duty frames'
+                ],
+                image: lawnSignsHero
+            }
+        ]
+    },
+    'a-frame-signs': {
+        title: 'A-Frame Signs',
+        subtitle: 'Portable, durable, and perfect for everyday visibility.',
+        description: 'Ideal for sidewalks, storefronts, events, and wayfinding, A-frame signs place your message exactly where foot traffic flows. Also known as sandwich boards, these versatile signs are a staple for retail and event marketing.',
+        heroImage: aFrameSignsHero,
+        closing: 'Weather-resistant, stable, and easy to move - a dependable display solution for indoor and outdoor use.',
+        sections: [
+            {
+                title: 'Construction Options',
+                items: [
+                    'Plastic or metal frames',
+                    'Interchangeable inserts or printed panels'
+                ],
+                image: aFrameSignsHero
+            }
+        ]
+    },
+    'acrylic-signs': {
+        title: 'Acrylic Signs',
+        subtitle: 'Modern, sleek, and premium in appearance.',
+        description: 'Perfect for offices, retail spaces, lobbies, and branded interiors, acrylic signs deliver a clean, contemporary look with exceptional clarity.',
+        heroImage: acrylicSignsHero,
+        closing: 'A refined signage solution that elevates your space with long-lasting visual impact.',
+        sections: [
+            {
+                title: 'Options',
+                items: [
+                    'Direct print or vinyl application',
+                    'Custom shapes and thicknesses',
+                    'Mounting options including standoffs, wall mounts, or adhesive backing'
+                ],
+                image: acrylicSignsHero
+            }
+        ]
+    },
+    'alupanel-signs': {
+        title: 'Alupanel Signs',
+        subtitle: 'Rigid, durable, and built for long-term performance.',
+        description: 'Designed for outdoor signage, storefronts, construction sites, and permanent installations, Alupanel signs offer superior strength without added weight.',
+        heroImage: alupanelSignsHero,
+        closing: 'A professional, dependable signage solution built to withstand the elements.',
+        sections: [
+            {
+                title: 'Material Details',
+                items: [
+                    'Aluminum composite material (ACM)',
+                    'UV-stable and weather-resistant',
+                    'Smooth surface for high-resolution printing or vinyl'
+                ],
+                image: alupanelSignsHero
+            }
+        ]
+    },
+    'flags': {
+        title: 'Flags and Feather Flags',
+        subtitle: 'Eye-catching movement with maximum visibility.',
+        description: 'Perfect for roadside promotions, storefront branding, and grand openings, flags attract attention through motion and bold color.',
+        heroImage: flagsHero,
+        closing: 'Durable materials and vibrant full-color printing ensure visibility from every angle.',
+        sections: [
+            {
+                title: 'Styles Available',
+                items: [
+                    'Feather',
+                    'Teardrop',
+                    'Rectangular'
+                ],
+                image: flagsHero
+            }
+        ]
+    },
+    'table-covers': {
+        title: 'Table Covers',
+        subtitle: 'Professional, branded, and event-ready.',
+        description: 'Ideal for trade shows, events, and retail displays, custom table covers present your brand in a clean and polished way.',
+        heroImage: tableCoversHero,
+        closing: 'Made from durable, wrinkle-resistant materials to keep your display looking professional throughout the event.',
+        sections: [
+            {
+                title: 'Style Options',
+                items: [
+                    'Fitted',
+                    'Stretch',
+                    'Standard'
+                ],
+                image: tableCoversHero
+            }
+        ]
+    },
+    'tabletop-displays': {
+        title: 'Tabletop Displays',
+        subtitle: 'Compact, impactful, and easy to set up.',
+        description: 'Perfect for counters, reception desks, and trade show tables, tabletop displays highlight key messages without taking up space.',
+        heroImage: tabletopDisplaysHero,
+        closing: 'Designed for durability and quick setup, making them ideal for any branded environment.',
+        sections: [
+            {
+                title: 'Options',
+                items: [
+                    'Multiple sizes',
+                    'Various display materials'
+                ],
+                image: tabletopDisplaysHero
+            }
+        ]
+    },
+    'tents-canopies': {
+        title: 'Tents & Canopies',
+        subtitle: 'Durable, branded, and built to stand out.',
+        description: 'Make a strong impression at outdoor events, trade shows, and promotional activations with custom-branded tents. Designed for visibility and ease of use, these tents provide a professional presence in any environment.',
+        heroImage: tentsCanopiesHero,
+        closing: 'Highly visible, fully customizable, and designed for repeated use at events of all sizes.',
+        sections: [
+            {
+                title: 'Key Features',
+                items: [
+                    'Standard 10ft × 10ft size',
+                    'Full-color printing on 100% polyester fabric',
+                    'Lightweight aluminum pop-up frame',
+                    'Tool-free setup and breakdown in minutes',
+                    'Adjustable height settings'
+                ],
+                image: tentsCanopiesHero
+            },
+            {
+                title: 'Customization Options',
+                items: [
+                    'Optional back walls',
+                    'Optional side walls',
+                    'Expanded branding coverage'
+                ]
+            }
+        ]
+    },
+    'popup-media-wall': {
+        title: 'Pop-Up Media Wall',
+        subtitle: 'Bold, branded, and event-ready.',
+        description: 'One of the most popular trade show display solutions, pop-up media walls provide a large, seamless backdrop that instantly elevates your brand presence at events, trade shows, and presentations.',
+        heroImage: popupMediaWallHero,
+        closing: 'A reliable, professional backdrop that delivers maximum impact with minimal setup.',
+        sections: [
+            {
+                title: 'Features',
+                items: [
+                    'Expandable frame with Velcro graphic panels',
+                    'Lightweight, portable hardware',
+                    'Tool-free setup',
+                    'Carry bag included',
+                    'Available in multiple sizes and print materials'
+                ],
+                image: popupMediaWallHero
+            }
+        ]
+    },
+    'pillow-case-displays': {
+        title: 'Pillow Case Displays',
+        subtitle: 'Sleek, modern, and visually striking.',
+        description: 'Ideal for trade shows, events, and retail environments, pillow case displays offer a smooth, wrinkle-free appearance with full-color branding. Their modern design creates a clean and polished presentation.',
+        heroImage: pillowCaseDisplaysHero,
+        closing: 'A stylish, professional display solution that’s easy to transport and quick to set up.',
+        sections: [
+            {
+                title: 'Features',
+                items: [
+                    'Stretch fabric graphic with full-color printing',
+                    'Lightweight aluminum frame',
+                    'Fabric slips easily over the frame',
+                    'Wrinkle-resistant finish',
+                    'Available in various sizes'
+                ],
+                image: pillowCaseDisplaysHero
+            }
+        ]
+    },
+    'telescopic-backdrops': {
+        title: 'Adjustable Telescopic Backdrops',
+        subtitle: 'Flexible, branded, and easy to use.',
+        description: 'Perfect for trade shows, events, retail spaces, and temporary displays, adjustable telescopic backdrops allow you to customize your display size based on your space and needs.',
+        heroImage: telescopicBackdropsHero,
+        closing: 'A versatile display solution that adapts to your space while keeping your branding front and center.',
+        sections: [
+            {
+                title: 'Key Features',
+                items: [
+                    'Full-color printing on durable materials',
+                    'Lightweight, portable frame',
+                    'Tool-free assembly',
+                    'Adjustable telescopic poles'
+                ],
+                image: telescopicBackdropsHero
+            },
+            {
+                title: 'Size Range',
+                items: [
+                    'Minimum: 60" × 60"',
+                    'Maximum: 118" wide × 118" high'
+                ]
+            }
+        ]
+    },
+    'shelf-talkers': {
+        title: 'Shelf Talkers',
+        subtitle: 'Attention-grabbing, branded, and versatile',
+        description: 'Highlight your products directly at the point of sale with custom shelf talkers. Designed to capture shopper attention, they help promote special offers, new launches, or key product features right where buying decisions are made.',
+        heroImage: shelfTalkersHero,
+        closing: 'A simple and effective way to reinforce your brand and drive in-store engagement.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Variety of sizes and shapes',
+                    'Multiple material options',
+                    'Full-color, high-quality printing'
+                ],
+                image: shelfTalkersHero
+            }
+        ]
+    },
+    'end-caps': {
+        title: 'End Caps',
+        subtitle: 'Impactful, eye-catching, and functional',
+        description: 'Positioned at the end of store aisles, end caps maximize visibility and draw attention to featured products, promotions, or seasonal campaigns. A powerful retail marketing tool designed to boost product discovery and sales.',
+        heroImage: endCapsHero,
+        closing: 'A professional display solution that helps your products stand out in busy retail environments.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Available in multiple sizes',
+                    'Durable material options',
+                    'Full-color printing for strong visual impact'
+                ],
+                image: endCapsHero
+            }
+        ]
+    },
+    'aisle-signs': {
+        title: 'Aisle Signs',
+        subtitle: 'Clear, informative, and easy to spot',
+        description: 'Guide customers through your store while highlighting promotions or key product categories. Aisle signs improve navigation, enhance the shopping experience, and reinforce your brand presence.',
+        heroImage: aisleSignsHero,
+        closing: 'Durable, professional signage that supports store organization and customer flow.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'High-visibility designs for easy readability',
+                    'Multiple size and material options',
+                    'Full-color printing'
+                ],
+                image: aisleSignsHero
+            }
+        ]
+    },
+    'fsdus': {
+        title: 'FSDUs (Free-Standing Display Units)',
+        subtitle: 'Eye-catching, functional, and high-impact',
+        description: 'Free-standing display units are ideal for retail floors, promotional areas, and events. Designed to attract attention and encourage interaction, FSDUs showcase products effectively while reinforcing brand messaging.',
+        heroImage: fsdusHero,
+        closing: 'A sturdy, professional display solution built to drive engagement and increase sales.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Available in various sizes and configurations',
+                    'Durable construction for retail use',
+                    'Full-color printing for strong brand visibility'
+                ],
+                image: fsdusHero
+            }
+        ]
+    },
+    'window-branding': {
+        title: 'Window Branding & Wall Murals',
+        subtitle: 'Bold, eye-catching, and impactful',
+        description: 'Transform windows and walls into powerful branding and promotional spaces with custom graphics and murals. Ideal for storefronts, offices, and retail environments, window branding enhances visibility, communicates key messages, and creates memorable visual experiences.\n\nDesigned to elevate your space while reinforcing your brand presence, these solutions are available in a wide range of sizes, materials, and full-color printing options to suit both temporary campaigns and long-term installations.',
+        heroImage: windowBrandingHero,
+        closing: 'A striking way to turn everyday surfaces into high-impact brand touchpoints.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Custom window graphics and wall murals',
+                    'Multiple size and material options',
+                    'Full-color, high-quality printing',
+                    'Suitable for retail, office, and commercial spaces'
+                ],
+                image: windowBrandingHero
+            }
+        ]
+    },
+    'labels-stickers': {
+        title: 'Labels & Stickers',
+        subtitle: 'Custom, eye-catching, and long-lasting',
+        description: 'Elevate your packaging, promotions, and branding with premium labels and stickers. Ideal for product packaging, giveaways, and marketing applications, these solutions help your brand stand out with a clean, professional finish.\n\nAvailable in a wide variety of shapes, sizes, and finishes, labels and stickers are printed in vibrant full color on durable materials to ensure long-lasting performance and visual impact.',
+        heroImage: labelsStickersHero,
+        closing: 'A versatile branding solution designed to look great and last.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Custom shapes and sizes',
+                    'Multiple material and finish options',
+                    'Full-color, high-quality printing',
+                    'Suitable for packaging, promotions, and branding'
+                ],
+                image: labelsStickersHero
+            }
+        ]
+    },
+    'freezer-grade-labels': {
+        title: 'Freezer Grade Labels',
+        subtitle: 'Durable, moisture-resistant, and reliable',
+        description: 'Designed for cold and demanding environments, freezer grade labels maintain strong adhesion and clear visibility even at low temperatures. Ideal for frozen foods, refrigerated products, and cold storage applications, they resist moisture, condensation, and temperature fluctuations.\n\nAvailable in custom sizes, shapes, and full-color printing options, these labels ensure your branding stays intact from freezer to shelf.',
+        heroImage: freezerGradeLabelsHero,
+        closing: 'Built to perform where standard labels fail.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Strong adhesive for cold environments',
+                    'Moisture and condensation resistant',
+                    'Custom sizes and shapes',
+                    'Full-color printing'
+                ],
+                image: freezerGradeLabelsHero
+            }
+        ]
+    },
+    't-shirts': {
+        title: 'T-Shirts',
+        subtitle: 'Comfortable, customizable, and versatile',
+        description: 'Create custom T-shirts for branding, promotions, or personal use. Perfect for events, staff uniforms, giveaways, or everyday wear, custom T-shirts offer a practical way to showcase your message while maintaining comfort and style.\n\nAvailable in a wide range of styles, colors, and sizes, they are produced using durable materials and long-lasting printing to ensure a clean, professional look that holds up over time.',
+        heroImage: tShirtsHero,
+        closing: 'A comfortable and reliable way to keep your brand visible.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Multiple styles, colors, and size options',
+                    'Durable fabric choices',
+                    'High-quality, long-lasting printing'
+                ],
+                image: tShirtsHero
+            }
+        ]
+    },
+    'caps': {
+        title: 'Caps',
+        subtitle: 'Stylish, customizable, and practical',
+        description: 'Custom caps are a versatile branding option for events, staff uniforms, promotions, or everyday wear. Designed to combine style with function, they help extend your brand presence beyond traditional marketing materials.\n\nAvailable in a variety of styles, colors, and fits, custom caps are produced with durable materials and high-quality printing or embroidery for a polished, professional finish.',
+        heroImage: capsHero,
+        closing: 'A practical accessory that delivers long-lasting brand exposure.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Multiple styles, colors, and fits',
+                    'Printing or embroidery options',
+                    'Durable materials for everyday wear'
+                ],
+                image: capsHero
+            }
+        ]
+    },
+    'aprons': {
+        title: 'Aprons',
+        subtitle: 'Durable, stylish, and versatile',
+        description: 'Enhance your brand or workspace with custom aprons designed for professional and personal use. Ideal for restaurants, cafés, retail staff, events, promotions, or home kitchens, aprons provide a clean and functional branded look.\n\nAvailable in a range of styles, colors, and fits, they are made from durable materials with high-quality printing or embroidery to ensure long-term use.',
+        heroImage: apronsHero,
+        closing: 'A functional apparel solution that combines practicality with professional branding.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Various styles, colors, and fit options',
+                    'Printing or embroidery available',
+                    'Durable, work-ready materials'
+                ],
+                image: apronsHero
+            }
+        ]
+    },
+    'pens': {
+        title: 'Pens',
+        subtitle: 'Simple, practical, and always within reach',
+        description: 'Custom pens are one of the most effective promotional tools for everyday brand visibility. Ideal for events, trade shows, offices, and giveaways, pens keep your brand in constant use while delivering a clean and professional impression.\n\nAvailable in a variety of styles, colors, and finishes, custom pens offer an affordable and reliable way to keep your brand top of mind.',
+        heroImage: pensHero,
+        closing: 'A classic promotional item that delivers lasting brand exposure.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Multiple pen styles and finishes',
+                    'Custom branding options',
+                    'Ideal for events, offices, and giveaways'
+                ],
+                image: pensHero
+            }
+        ]
+    },
+    'mugs': {
+        title: 'Mugs',
+        subtitle: 'Practical, memorable, and brand-forward',
+        description: 'Custom mugs are perfect for corporate gifts, office use, and promotional giveaways. Designed for daily use, they turn every coffee or tea break into a branding opportunity.\n\nAvailable in a range of styles, sizes, and finishes, custom mugs combine functionality with strong visual branding that lasts.',
+        heroImage: mugsHero,
+        closing: 'A practical promotional item that keeps your brand front and center.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Variety of mug styles and capacities',
+                    'Durable materials for everyday use',
+                    'High-quality customization options'
+                ],
+                image: mugsHero
+            }
+        ]
+    },
+    'bottles': {
+        title: 'Bottles',
+        subtitle: 'Functional, reusable, and modern',
+        description: 'Custom bottles are ideal for events, corporate gifting, fitness promotions, and everyday use. Designed for convenience and durability, they help promote your brand while supporting an active, on-the-go lifestyle.\n\nAvailable in a range of styles, materials, and finishes, custom bottles offer long-lasting visibility wherever they go.',
+        heroImage: bottlesHero,
+        closing: 'A modern promotional item that travels with your brand.',
+        sections: [
+            {
+                title: 'What’s included',
+                items: [
+                    'Multiple bottle styles and materials',
+                    'Custom branding options',
+                    'Suitable for daily use and promotions'
+                ],
+                image: bottlesHero
+            }
+        ]
     }
+
 };
