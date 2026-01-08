@@ -22,6 +22,7 @@ import { Contact } from './pages/Contact';
 
 
 import { ScrollToAnchor } from './components/ScrollToAnchor';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -49,8 +50,8 @@ function App() {
 
 
 
-
       <Footer />
+      <WhatsAppButton />
     </Router>
   );
 }

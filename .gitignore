@@ -158,3 +158,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 >>>>>>> eda9aa2c2bf260979145b4321b8f195a4ab55086
+
+# Local Netlify folder
+.netlify
