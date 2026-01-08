@@ -21,9 +21,12 @@ import { Contact } from './pages/Contact';
 
 
 
+import { ScrollToAnchor } from './components/ScrollToAnchor';
+
 function App() {
   return (
     <Router>
+      <ScrollToAnchor />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,68 +1,21 @@
-# Luminous Printing
+<<<<<<< HEAD
+# React + Vite
 
-A modern React-based web application for Luminous Printing Services, showcasing print products including business cards, brochures, booklets, flyers, and more.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Modern, responsive UI built with React and Vite
-- Product catalog with detailed pages
-- Navigation and search functionality
-- Fast development with Hot Module Replacement (HMR)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+## React Compiler
 
-- **React** - UI framework
-- **Vite** - Build tool and dev server
-- **React Router** - Client-side routing
-- **ESLint** - Code linting
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Getting Started
+## Expanding the ESLint configuration
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/TheCreativeHorse/Luminous-Printing.git
-cd Luminous-Printing
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-The application will open at `http://localhost:5173`
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## Project Structure
-
-```
-luminous-app/
-├── src/
-│   ├── components/     # Reusable components
-│   ├── pages/          # Page components
-│   ├── data/           # Data files
-│   └── assets/         # Static assets
-├── public/             # Public assets
-└── Public_Assets/      # Product images and resources
-```
-
-## License
-
-© Luminous Printing Services
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# Luminous-Printing
+Printing Services
+>>>>>>> eda9aa2c2bf260979145b4321b8f195a4ab55086

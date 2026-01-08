@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import logo from '../../Public_Assets/Logo/Luminous Printing Logo 2-01.png';
 import { navigationLinks } from '../data/navigation';
@@ -16,9 +17,9 @@ export function NavBar() {
         <div className="container">
           <div className="nav-top-content">
             <div className="logo-wrapper">
-              <a href="/" aria-label="Luminious Printing home" onClick={closeNav}>
+              <Link to="/" aria-label="Luminious Printing home" onClick={closeNav}>
                 <img src={logo} alt="Luminious Printing" />
-              </a>
+              </Link>
             </div>
 
             <div className="search-wrapper">
@@ -51,16 +52,16 @@ export function NavBar() {
           <ul id="primary-nav">
             {navigationLinks.map(({ href, lines, subItems }) => (
               <li key={href} className={subItems ? 'has-dropdown' : ''}>
-                <a href={href} onClick={closeNav}>
+                <Link to={href} onClick={closeNav}>
                   {lines.join(' ')}
-                </a>
+                </Link>
                 {subItems && (
                   <ul className="dropdown-menu">
                     {subItems.map((subItem) => (
                       <li key={subItem.label}>
-                        <a href={subItem.href} onClick={closeNav}>
+                        <Link to={subItem.href} onClick={closeNav}>
                           {subItem.label}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
