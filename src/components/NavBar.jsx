@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../../Public_Assets/Logo/Luminous Printing Logo 2-01.png';
+import logo from '../../Public_Assets/Logo/Updated Logo..svg';
 import { navigationLinks } from '../data/navigation';
 import { SearchBar } from './SearchBar';
 

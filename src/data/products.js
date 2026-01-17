@@ -26,12 +26,12 @@ import canvasHero from '../../Public_Assets/Generated/canvas_hero.png';
 import bannersHero from '../../Public_Assets/Generated/banners_hero.png';
 import tentsCanopiesHero from '../../Public_Assets/Generated/tents_canopies_hero.png';
 import popupMediaWallHero from '../../Public_Assets/Generated/popup_media_wall_hero.png';
-import pillowCaseDisplaysHero from '../../Public_Assets/Generated/pillow_case_displays_hero.png';
+import pillowCaseDisplaysHero from '../../Public_Assets/Tent,backdrops & Trade Show Display/Pillow Case.png';
 import telescopicBackdropsHero from '../../Public_Assets/Generated/telescopic_backdrops_hero.png';
-import shelfTalkersHero from '../../Public_Assets/Generated/shelf_talkers_hero.png';
-import endCapsHero from '../../Public_Assets/Generated/end_caps_hero.png';
-import aisleSignsHero from '../../Public_Assets/Generated/aisle_signs_hero.png';
-import fsdusHero from '../../Public_Assets/Generated/fsdus_hero.png';
+import shelfTalkersHero from '../../Public_Assets/Retail Marketing/Shelf taker.png';
+import endCapsHero from '../../Public_Assets/Retail Marketing/End Caps.png';
+import aisleSignsHero from '../../Public_Assets/Retail Marketing/Aisle Signs.png';
+import fsdusHero from '../../Public_Assets/Retail Marketing/FDUs.png';
 import retractableBannersHero from '../../Public_Assets/Generated/retractable_banners_hero.png';
 import lawnSignsHero from '../../Public_Assets/Generated/lawn_signs_hero.png';
 import aFrameSignsHero from '../../Public_Assets/Generated/a_frame_signs_hero.png';
@@ -46,9 +46,9 @@ import freezerGradeLabelsHero from '../../Public_Assets/Generated/freezer_grade_
 import tShirtsHero from '../../Public_Assets/Generated/t_shirts_hero.png';
 import capsHero from '../../Public_Assets/Generated/caps_hero.png';
 import apronsHero from '../../Public_Assets/Generated/aprons_hero.png';
-import pensHero from '../../Public_Assets/Generated/pens_hero.png';
-import mugsHero from '../../Public_Assets/Generated/mugs_hero.png';
-import bottlesHero from '../../Public_Assets/Generated/bottles_hero.png';
+import pensHero from '../../Public_Assets/Promotional Item/Pen.png';
+import mugsHero from '../../Public_Assets/Promotional Item/Mugs.png';
+import bottlesHero from '../../Public_Assets/Promotional Item/Bottles.png';
 
 
 

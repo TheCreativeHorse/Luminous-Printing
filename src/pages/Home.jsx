@@ -1,8 +1,4 @@
-import heroOne from '../../Public_Assets/Business Card-20251115T095449Z-1-001/Banner2.jpg';
-import heroTwo from '../../Public_Assets/Flyers-20251115T095602Z-1-001/4.jpg';
-import heroThree from '../../Public_Assets/Booklets/2.jpg';
-import heroFour from '../../Public_Assets/Invitation-Announcement-20251115T095621Z-1-001/3.jpg';
-import heroFive from '../../Public_Assets/Post Card-20251115T095653Z-1-001/6.jpg';
+import impactfulHero from '../../Public_Assets/impactful_hero.png';
 import catBusinessCards from '../../Public_Assets/Business Card-20251115T095449Z-1-001/1.jpg';
 import catPrintProducts from '../../Public_Assets/Brochures-20251115T095627Z-1-001/5.jpg';
 import catBanners from '../../Public_Assets/Business Card-20251115T095449Z-1-001/Banner.jpg';
@@ -11,8 +7,6 @@ import catRetail from '../../Public_Assets/Bookmark/5.jpg';
 import catWindow from '../../Public_Assets/Invitation-Announcement-20251115T095621Z-1-001/5.jpg';
 import catLabels from '../../Public_Assets/Post Card-20251115T095653Z-1-001/2.jpg';
 import catApparel from '../../Public_Assets/Greeting Cards-20251115T095617Z-1-001/3.jpg';
-
-const heroImages = [heroOne, heroTwo, heroThree, heroFour, heroFive];
 
 const features = [
     {
@@ -99,12 +93,8 @@ const processSteps = [
 export function Home() {
     return (
         <main>
-            <section className="hero" id="hero">
-                <div className="hero-visual-grid" aria-hidden="true">
-                    {heroImages.map((src, index) => (
-                        <img key={src + index} src={src} alt="" />
-                    ))}
-                </div>
+            <section className="hero" id="hero" style={{ backgroundImage: `url(${impactfulHero})` }}>
+                <div className="hero-overlay"></div>
                 <div className="container hero-content">
                     <p className="eyebrow">Trade quality printing for growing businesses</p>
                     <h1>High quality print products made simple</h1>
@@ -117,7 +107,7 @@ export function Home() {
                         <a className="btn btn-primary" href="/categories">
                             Browse products
                         </a>
-                        <a className="btn btn-link" href="/contact#inquiry">
+                        <a className="btn btn-primary" href="/contact#inquiry">
                             Request a quote
                         </a>
                     </div>
