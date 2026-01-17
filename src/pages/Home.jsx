@@ -104,10 +104,7 @@ export function Home() {
                         every order.
                     </p>
                     <div className="hero-ctas">
-                        <a className="btn btn-primary" href="/categories">
-                            Browse products
-                        </a>
-                        <a className="btn btn-primary" href="/contact#inquiry">
+                        <a className="btn btn-primary" href="/contact">
                             Request a quote
                         </a>
                     </div>
@@ -192,7 +189,7 @@ export function Home() {
                             guide you through file preparation and timelines.
                         </p>
                     </div>
-                    <a className="btn btn-primary" href="/contact#inquiry">
+                    <a className="btn btn-primary" href="/contact">
                         Talk to us
                     </a>
                 </div>
