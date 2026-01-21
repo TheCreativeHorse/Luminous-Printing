@@ -2,7 +2,8 @@ import { products } from '../data/products';
 
 export function WindowVehicleGraphics() {
     const productKeys = [
-        'window-branding'
+        'window-branding',
+        'vehicle-wraps'
     ];
 
     return (
