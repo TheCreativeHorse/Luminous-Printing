@@ -1,6 +1,6 @@
 export function WhatsAppButton() {
     // TODO: Replace with actual client WhatsApp number (format: country code + number, e.g., 15551234567)
-    const phoneNumber = '15551234567'; // Placeholder number
+    const phoneNumber = '16472811177'; // Updated business number
     const message = encodeURIComponent('Hi! I have an inquiry about your printing services.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 

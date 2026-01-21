@@ -209,65 +209,17 @@ section {
 }
 
 .features {
-  background-color: #fff;
+  background-color: #0f172a;
   position: relative;
   overflow: hidden;
 }
 
-.features::before,
-.features::after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(60px);
-  z-index: 0;
-  pointer-events: none;
+.features .section-heading h2 {
+  color: #fff;
 }
 
-/* Left Splash - Pink/Purple/Blue */
-.features::before {
-  width: 800px;
-  height: 800px;
-  top: -300px;
-  left: -200px;
-  background: radial-gradient(circle at center, rgba(236, 72, 153, 0.4) 0%, rgba(168, 85, 247, 0.4) 30%, rgba(59, 130, 246, 0.4) 70%, transparent 100%);
-  opacity: 0.8;
-  animation: pulse-splash-1 8s ease-in-out infinite;
-}
-
-/* Right Splash - Orange/Yellow/Red */
-.features::after {
-  width: 700px;
-  height: 700px;
-  bottom: -250px;
-  right: -150px;
-  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.4) 0%, rgba(239, 68, 68, 0.4) 40%, rgba(250, 204, 21, 0.4) 70%, transparent 100%);
-  opacity: 0.8;
-  animation: pulse-splash-2 10s ease-in-out infinite reverse;
-}
-
-@keyframes pulse-splash-1 {
-
-  0%,
-  100% {
-    transform: scale(1) translate(0, 0);
-  }
-
-  50% {
-    transform: scale(1.1) translate(20px, 10px);
-  }
-}
-
-@keyframes pulse-splash-2 {
-
-  0%,
-  100% {
-    transform: scale(1) translate(0, 0);
-  }
-
-  50% {
-    transform: scale(1.15) translate(-20px, -10px);
-  }
+.features .section-heading p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .feature-grid {
@@ -280,10 +232,10 @@ section {
 
 .feature-card {
   padding: 32px;
-  border: 1px solid var(--neutral-100);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius);
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(15, 23, 42, 0.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -388,39 +340,17 @@ section {
 }
 
 .process {
-  background-color: #fff;
+  background-color: #0f172a;
   position: relative;
   overflow: hidden;
 }
 
-.process::before,
-.process::after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(60px);
-  z-index: 0;
-  pointer-events: none;
+.process .section-heading h2 {
+  color: #fff;
 }
 
-.process::before {
-  width: 800px;
-  height: 800px;
-  top: -300px;
-  left: -200px;
-  background: radial-gradient(circle at center, rgba(236, 72, 153, 0.4) 0%, rgba(168, 85, 247, 0.4) 30%, rgba(59, 130, 246, 0.4) 70%, transparent 100%);
-  opacity: 0.8;
-  animation: pulse-splash-1 8s ease-in-out infinite;
-}
-
-.process::after {
-  width: 700px;
-  height: 700px;
-  bottom: -250px;
-  right: -150px;
-  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.4) 0%, rgba(239, 68, 68, 0.4) 40%, rgba(250, 204, 21, 0.4) 70%, transparent 100%);
-  opacity: 0.8;
-  animation: pulse-splash-2 10s ease-in-out infinite reverse;
+.process .section-heading p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .process-steps {
@@ -437,8 +367,8 @@ section {
   padding: 32px;
   border-radius: var(--radius);
   background-color: #fff;
-  border: 1px solid var(--neutral-100);
-  box-shadow: 0 4px 6px rgba(15, 23, 42, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   overflow: hidden;
 }
@@ -482,9 +412,10 @@ section {
 }
 
 .cta-band {
-  background-color: var(--primary);
-  color: #fff;
+  background-color: #fff;
+  color: var(--neutral-900);
   padding: 80px 0;
+  border-top: 1px solid var(--neutral-100);
 }
 
 .cta-content {
@@ -495,12 +426,12 @@ section {
 }
 
 .cta-content h2 {
-  color: #fff;
+  color: var(--neutral-900);
   margin-bottom: 16px;
 }
 
 .cta-content p {
-  color: var(--primary-100);
+  color: var(--neutral-700);
   font-size: 1.125rem;
   max-width: 600px;
   margin: 0;
@@ -1070,6 +1001,21 @@ section {
 
 .product-section:hover .product-image img {
   transform: scale(1.02);
+}
+
+/* Specific fix for A-Frame image size */
+#a-frame-signs .product-image img,
+#shelf-talkers .product-image img,
+#end-caps .product-image img,
+#t-shirts .product-image img,
+#caps .product-image img,
+#aprons .product-image img,
+#flags .product-image img,
+#table-covers .product-image img,
+#tabletop-displays .product-image img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 .product-details h2 {

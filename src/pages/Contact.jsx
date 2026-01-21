@@ -22,15 +22,15 @@ export function Contact() {
                             <div className="contact-info-block">
                                 <div className="contact-item">
                                     <h3>Phone</h3>
-                                    <p>+1 (555) 123-4567</p>
+                                    <p>+1 (647) 281-1177</p>
                                 </div>
                                 <div className="contact-item">
                                     <h3>Email</h3>
-                                    <p>hello@luminousprinting.com</p>
+                                    <p>info@luminousprinting.ca</p>
                                 </div>
                                 <div className="contact-item">
                                     <h3>Location</h3>
-                                    <p>123 Print Street, Creative City, ST 12345</p>
+                                    <p>689 Four Winds Way, Mississauga</p>
                                 </div>
                             </div>
                         </div>

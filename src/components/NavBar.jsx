@@ -27,8 +27,8 @@ export function NavBar() {
             </div>
 
             <div className="contact-wrapper">
-              <a href="tel:+15551234567" className="contact-number">
-                <span className="icon">📞</span> (555) 123-4567
+              <a href="tel:+16472811177" className="contact-number">
+                <span className="icon">📞</span> (647) 281-1177
               </a>
             </div>
 

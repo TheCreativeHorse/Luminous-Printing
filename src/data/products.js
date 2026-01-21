@@ -27,25 +27,25 @@ import bannersHero from '../../Public_Assets/Generated/banners_hero.png';
 import tentsCanopiesHero from '../../Public_Assets/Generated/tents_canopies_hero.png';
 import popupMediaWallHero from '../../Public_Assets/Generated/popup_media_wall_hero.png';
 import pillowCaseDisplaysHero from '../../Public_Assets/Tent,backdrops & Trade Show Display/Pillow Case.png';
-import telescopicBackdropsHero from '../../Public_Assets/Generated/telescopic_backdrops_hero.png';
-import shelfTalkersHero from '../../Public_Assets/Retail Marketing/Shelf taker.png';
-import endCapsHero from '../../Public_Assets/Retail Marketing/End Caps.png';
-import aisleSignsHero from '../../Public_Assets/Retail Marketing/Aisle Signs.png';
+import telescopicBackdropsHero from '../../Public_Assets/Tent,backdrops & Trade Show Display/Telescopic banner.png';
+import shelfTalkersHero from '../../Public_Assets/Retail Marketing/Shelf Talkers.png';
+import endCapsHero from '../../Public_Assets/Retail Marketing/End Caps 1.png';
+import aisleSignsHero from '../../Public_Assets/Retail Marketing/Aisle Signs_Updated.png';
 import fsdusHero from '../../Public_Assets/Retail Marketing/FDUs.png';
 import retractableBannersHero from '../../Public_Assets/Generated/retractable_banners_hero.png';
 import lawnSignsHero from '../../Public_Assets/Generated/lawn_signs_hero.png';
-import aFrameSignsHero from '../../Public_Assets/Generated/a_frame_signs_hero.png';
+import aFrameSignsHero from '../../Public_Assets/Banners, signs & flags/A Frame.png';
 import acrylicSignsHero from '../../Public_Assets/Generated/acrylic_signs_hero.png';
 import alupanelSignsHero from '../../Public_Assets/Generated/alupanel_signs_hero.png';
-import flagsHero from '../../Public_Assets/Generated/flags_hero.png';
-import tableCoversHero from '../../Public_Assets/Generated/table_covers_hero.png';
-import tabletopDisplaysHero from '../../Public_Assets/Generated/tabletop_displays_hero.png';
+import flagsHero from '../../Public_Assets/Banners, signs & flags/Feather Flags.png';
+import tableCoversHero from '../../Public_Assets/Banners, signs & flags/Table top covers.png';
+import tabletopDisplaysHero from '../../Public_Assets/Banners, signs & flags/TableTop Displays.png';
 import windowBrandingHero from '../../Public_Assets/Generated/window_branding_hero.png';
 import labelsStickersHero from '../../Public_Assets/Generated/labels_stickers_hero.png';
 import freezerGradeLabelsHero from '../../Public_Assets/Generated/freezer_grade_labels_hero.png';
-import tShirtsHero from '../../Public_Assets/Generated/t_shirts_hero.png';
-import capsHero from '../../Public_Assets/Generated/caps_hero.png';
-import apronsHero from '../../Public_Assets/Generated/aprons_hero.png';
+import tShirtsHero from '../../Public_Assets/Apparel & clothing/Teeshirts.png';
+import capsHero from '../../Public_Assets/Apparel & clothing/Caps.png';
+import apronsHero from '../../Public_Assets/Apparel & clothing/Apron.png';
 import pensHero from '../../Public_Assets/Promotional Item/Pen.png';
 import mugsHero from '../../Public_Assets/Promotional Item/Mugs.png';
 import bottlesHero from '../../Public_Assets/Promotional Item/Bottles.png';
@@ -576,9 +576,8 @@ export const products = {
             {
                 title: 'Style Options',
                 items: [
-                    'Fitted',
-                    'Stretch',
-                    'Standard'
+                    'Drape Shaped',
+                    'Box Shape (Fitted)'
                 ],
                 image: tableCoversHero
             }

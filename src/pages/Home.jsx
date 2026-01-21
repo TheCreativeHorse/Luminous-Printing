@@ -1,12 +1,12 @@
 import impactfulHero from '../../Public_Assets/impactful_hero.png';
 import catBusinessCards from '../../Public_Assets/Business Card-20251115T095449Z-1-001/1.jpg';
-import catPrintProducts from '../../Public_Assets/Brochures-20251115T095627Z-1-001/5.jpg';
-import catBanners from '../../Public_Assets/Business Card-20251115T095449Z-1-001/Banner.jpg';
-import catDisplays from '../../Public_Assets/Magnets-20251115T095647Z-1-001/4.jpg';
-import catRetail from '../../Public_Assets/Bookmark/5.jpg';
-import catWindow from '../../Public_Assets/Invitation-Announcement-20251115T095621Z-1-001/5.jpg';
-import catLabels from '../../Public_Assets/Post Card-20251115T095653Z-1-001/2.jpg';
-import catApparel from '../../Public_Assets/Greeting Cards-20251115T095617Z-1-001/3.jpg';
+import catPrintProducts from '../../Public_Assets/Generated/posters_hero.png';
+import catBanners from '../../Public_Assets/Generated/banners_hero.png';
+import catDisplays from '../../Public_Assets/Generated/popup_media_wall_hero.png';
+import catRetail from '../../Public_Assets/Retail Marketing/Shelf Talkers.png';
+import catWindow from '../../Public_Assets/Generated/window_branding_hero.png';
+import catLabels from '../../Public_Assets/Generated/labels_stickers_hero.png';
+import catApparel from '../../Public_Assets/Apparel & clothing/Teeshirts.png';
 
 const features = [
     {
