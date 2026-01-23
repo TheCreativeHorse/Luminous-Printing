@@ -1,4 +1,5 @@
 import { products } from '../data/products';
+import { useState } from 'react';
 
 export function PrintProductsBatch2() {
     const batch2Keys = [
@@ -21,7 +22,11 @@ export function PrintProductsBatch2() {
                         return (
                             <div key={key} id={key} className={`product-section ${isEven ? '' : 'reverse'}`}>
                                 <div className="product-image">
-                                    <img src={product.heroImage} alt={product.title} />
+                                    {product.images && product.images.length > 1 ? (
+                                        <ImageCarousel images={product.images} alt={product.title} />
+                                    ) : (
+                                        <img src={product.heroImage} alt={product.title} />
+                                    )}
                                 </div>
                                 <div className="product-details">
                                     <h2>{product.title}</h2>
@@ -67,3 +72,38 @@ export function PrintProductsBatch2() {
         </main>
     );
 }
+
+function ImageCarousel({ images, alt }) {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const goToSlide = (index) => {
+        setCurrentIndex(index);
+    };
+
+    return (
+        <div className="image-carousel">
+            <div className="carousel-images">
+                {images.map((image, index) => (
+                    <img
+                        key={index}
+                        src={image}
+                        alt={`${alt} ${index + 1}`}
+                        className={index === currentIndex ? 'active' : ''}
+                        style={{ display: index === currentIndex ? 'block' : 'none' }}
+                    />
+                ))}
+            </div>
+            <div className="carousel-dots">
+                {images.map((_, index) => (
+                    <button
+                        key={index}
+                        className={`carousel-dot ${index === currentIndex ? 'active' : ''}`}
+                        onClick={() => goToSlide(index)}
+                        aria-label={`Go to slide ${index + 1}`}
+                    />
+                ))}
+            </div>
+        </div>
+    );
+}
+

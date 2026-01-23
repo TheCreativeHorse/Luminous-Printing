@@ -13,7 +13,9 @@ import brochureImage from '../../Public_Assets/Brochures-20251115T095627Z-1-001/
 import magnetHero from '../../Public_Assets/Magnets-20251115T095647Z-1-001/1.jpg';
 import magnetImage from '../../Public_Assets/Magnets-20251115T095647Z-1-001/2.jpg';
 import posterHero from '../../Public_Assets/Generated/posters_hero.png';
-import presentationFolderHero from '../../Public_Assets/Generated/presentation_folders_hero.png';
+import presentationFolder1 from '../../Public_Assets/Presentation Folders/1 (1).jpg';
+import presentationFolder2 from '../../Public_Assets/Presentation Folders/2.jpg';
+import presentationFolder3 from '../../Public_Assets/Presentation Folders/3.jpg';
 import numberedTicketHero from '../../Public_Assets/Generated/numbered_tickets_hero.png';
 import tearCardHero from '../../Public_Assets/Generated/tear_cards_hero.png';
 import calendarHero from '../../Public_Assets/Generated/calendars_hero.png';
@@ -255,17 +257,20 @@ export const products = {
         title: 'Presentation Folders',
         subtitle: 'Organized, polished, and professional.',
         description: 'Perfect for corporate meetings, proposals, pitch decks, or trade show materials, presentation folders help you keep documents organized while presenting your brand with confidence.',
-        heroImage: presentationFolderHero,
+        heroImage: presentationFolder1,
+        images: [presentationFolder1, presentationFolder2, presentationFolder3],
         closing: 'Professionally printed to reflect your brand in the best possible light.',
         sections: [
             {
-                title: 'Features',
+                title: 'Type of Presentation Folders',
                 items: [
-                    'Professional appearance',
-                    'Multiple pocket configurations',
-                    'Custom branding options'
+                    'Standard Matte Finish Folders - 14pt Matte Finish',
+                    'Standard UV Folders - 14pt Standard UV',
+                    'Matte Laminated Folders - 14pt Matte Laminated',
+                    'Standard AQ Folders - 14pt Standard AQ',
+                    'Speciality Presentation Folders - Metallic Foil Presentation Folder'
                 ],
-                image: presentationFolderHero
+                image: presentationFolder1
             }
         ]
     },
