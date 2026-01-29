@@ -1,3 +1,5 @@
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
+
 export function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -31,6 +33,17 @@ export function Contact() {
                                 <div className="contact-item">
                                     <h3>Location</h3>
                                     <p>689 Four Winds Way, Mississauga</p>
+                                </div>
+                                <div className="contact-item">
+                                    <h3>Follow Us</h3>
+                                    <div className="social-links">
+                                        <a href="https://www.instagram.com/luminousprinting.ca" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                            <FaInstagram />
+                                        </a>
+                                        <a href="https://www.facebook.com/luminousprinting.ca" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                            <FaFacebook />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

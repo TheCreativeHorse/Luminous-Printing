@@ -1,3 +1,5 @@
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
+
 export function Footer() {
     return (
         <footer className="site-footer">
@@ -43,6 +45,17 @@ export function Footer() {
                             <a href="/contact#inquiry">Request a quote</a>
                         </li>
                     </ul>
+                </div>
+                <div>
+                    <p className="footer-label">Connect</p>
+                    <div className="social-links footer-socials">
+                        <a href="https://www.instagram.com/luminousprinting.ca" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://www.facebook.com/luminousprinting.ca" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <FaFacebook />
+                        </a>
+                    </div>
                 </div>
             </div>
             <p className="footer-copy">
