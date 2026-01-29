@@ -114,7 +114,7 @@ export function Home() {
             <section className="intro">
                 <div className="container narrow">
                     <p>
-                        Luminious Printing partners with trusted wholesale trade printers to bring you professional print solutions
+                        Luminious Printing partners with trusted suppliers to bring you professional print solutions
                         without the complexity. Whether you need a small run for a local event or regular print for your business,
                         we help you choose the right product, finish and quantity for your needs.
                     </p>
