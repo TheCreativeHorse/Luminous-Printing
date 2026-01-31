@@ -550,8 +550,8 @@ section {
     width: 100%;
   }
 
-  .nav-logo img {
-    height: 60px;
+  .logo-wrapper img {
+    height: 50px;
   }
 
   .nav-toggle {
@@ -824,6 +824,11 @@ section {
   .nav-top-content {
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  .nav-top {
+    height: auto;
+    padding-bottom: 1rem;
   }
 
   .search-wrapper {
@@ -1298,6 +1303,7 @@ section {
     height: 30px;
   }
 }
+
 /* Social Links */
 .social-links {
   display: flex;
@@ -1312,7 +1318,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0; /* Override any padding from elsewhere */
+  padding: 0;
+  /* Override any padding from elsewhere */
 }
 
 .social-links a:hover {
@@ -1322,10 +1329,9 @@ section {
 
 /* Footer Specific Overrides */
 .footer-socials a {
-    color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-socials a:hover {
-    color: #fff;
+  color: #fff;
 }
-
